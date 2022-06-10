@@ -4,7 +4,6 @@ import (
 	"github.com/natefinch/lumberjack"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"im-http/configs"
 	"os"
 )
 
