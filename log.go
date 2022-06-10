@@ -22,12 +22,6 @@ func Info(s string,args ...zap.Field){
 	logger.Info(s,args...)
 }
 
-func Debug(s string,args ...zap.Field){
-	if configs.DebugMode==true{
-		logger.Debug(s,args...)
-	}
-}
-
 func Errors(s string,args ...zap.Field){
 	logger.Error(s,args...)
 }
